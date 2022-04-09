@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  background-color: #BFFAF2;
+  color: #008B8B;
+}
+h1 {
+margin-top: 0;
+margin-bottom: 0;
+}
+.top-cloud {
+  position: relative;
+  left: 60%;
+width: 200px; height: auto;
+}
+.name {
+  text-align: center;
+  font-family: cursive;
+  font-size: 150%;
+  left: 100px;
+}
+.cloud {
+display: block;
+position: relative;
+left: 30%;
+width: 200px; height: auto;
+animation-direction: alternate;
+animation-play-state: running;
+
+}
+.mountain {
+  width: 1000px; height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+hr{
+  border-color: white;
+  border-style: dashed;
+  border-top-width: thick;
+  border-bottom-width: 0;
+width: 80%;
+}
+.photo{
+  width: 300px; height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+.content{
+display: inline;
+font-family: 'Freehand', cursive;
+text-align: center;
+font-size: 200%;
+
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.panipuri{
+  width: 300px; height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+.end {
+  display: block;
+  text-align: center;
+  font-size: 100%;
+  background-color: #008B8B;
+  color:#BFFAF2;
+}
+a {
+  align-content: center;
+}
+img:hover {
+  transform: scale(2);
+  transition: all 0.2s  0.1s;
+}
